@@ -25,15 +25,13 @@ class CategoryAdapter(context: Context, categories: List<Category>) : BaseAdapte
         if (convertView == null){
             categoryView = LayoutInflater.from(context).inflate(R.layout.category_list_item, null)
             holder = ViewHolder()
-            holder.categoryImage = categoryView.findViewById(R.id.categorieImage)
-            holder.categoryName = categoryView.findViewById(R.id.CategorieName)
+            holder.categoryImage = categoryView.findViewById(R.id.categoryImage)
+            holder.categoryName = categoryView.findViewById(R.id.categoryName)
             categoryView.tag = holder
         } else {
             holder = convertView.tag as ViewHolder
             categoryView = convertView
         }
-
-
         val category = categories[position]
         val resurceId = context.resources.getIdentifier(category.image, "drawble", context.packageName)
         holder.categoryImage?.setImageResource(resurceId)

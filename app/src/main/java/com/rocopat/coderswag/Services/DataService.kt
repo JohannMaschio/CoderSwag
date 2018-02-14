@@ -14,22 +14,22 @@ object DataService {
             Category("DIGITAL", "digitalgoodimage")
     )
     val hats = listOf(
-            Product("Devslopes Graphic Beanie", "$18", "hat01"),
-            Product("Devslopes hat black", "$19", "hat02"),
-            Product("Devslopes hat white", "$20", "hat03"),
-            Product("Devslopes hat Snapback", "$21", "hat04")
+            Product("Devslopes Graphic Beanie", "$18", "hat1"),
+            Product("Devslopes hat black", "$19", "hat2"),
+            Product("Devslopes hat white", "$20", "hat3"),
+            Product("Devslopes hat Snapback", "$21", "hat4")
     )
     val hoodies = listOf(
-            Product("Devslopes Hoodie Gray", "$32", "hoodie01"),
-            Product("Devslopes Hoodie Red", "$30", "hoodie02"),
-            Product("Devslopes Hoodie white", "$31", "hoodie03"),
-            Product("Devslopes Hoodie Blue", "$33", "hoodie04")
+            Product("Devslopes Hoodie Gray", "$32", "hoodie1"),
+            Product("Devslopes Hoodie Red", "$30", "hoodie2"),
+            Product("Devslopes Hoodie white", "$31", "hoodie3"),
+            Product("Devslopes Hoodie Blue", "$33", "hoodie4")
     )
     val shirts = listOf(
-            Product("Devslopes Shit Black", "$20", "shit01"),
-            Product("Devslopes Shit Red", "$25", "shit02"),
-            Product("Devslopes Shit Hustle", "$35", "shit03"),
-            Product("Devslopes Shit Blue", "$30", "shit04"),
-            Product("Devslopes Shit Gray", "$40", "shit05")
+            Product("Devslopes Shit Black", "$20", "shirt1"),
+            Product("Devslopes Shit Red", "$25", "shirt2"),
+            Product("Devslopes Shit Hustle", "$35", "shirt3"),
+            Product("Devslopes Shit Blue", "$30", "shirt4"),
+            Product("Devslopes Shit Gray", "$40", "shirt5")
     )
 }
